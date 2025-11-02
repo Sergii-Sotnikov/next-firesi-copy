@@ -44,10 +44,9 @@ export const metadata: Metadata = {
 export default function CertificatesLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <HeaderCertificates />
+      {/* <HeaderCertificates /> */}
       <main>{children}</main>
       <ContactMobile />
-      <Footer />
     </>
   );
 }
